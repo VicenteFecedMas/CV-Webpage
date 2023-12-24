@@ -12,127 +12,73 @@ resume_file = current_dir / "assets" / "CV.pdf"
 
 
 # --- GENERAL SETTINGS ---
-PAGE_TITLE = "Portfolio | Vicente Feced Mas"
-PAGE_ICON = ":wave:"
+PAGE_TITLE = "Vicente Feced Mas"
 NAME = "Vicente Feced Mas"
 DESCRIPTION = """
 AI engineer | Machine Learning engineer
 """
-EMAIL = "johndoe@email.com"
-SOCIAL_MEDIA = {
-    "LinkedIn": "https://www.linkedin.com/in/vicente-feced-1a1794174/",
-    "GitHub": "https://github.com/VicenteFecedMas",
-}
+SOCIALS = [
+    ("https://www.linkedin.com/in/vicente-feced-1a1794174/", "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMmM1LjUxNCAwIDEwIDQuNDg2IDEwIDEwcy00LjQ4NiAxMC0xMCAxMC0xMC00LjQ4Ni0xMC0xMCA0LjQ4Ni0xMCAxMC0xMHptMC0yYy02LjYyNyAwLTEyIDUuMzczLTEyIDEyczUuMzczIDEyIDEyIDEyIDEyLTUuMzczIDEyLTEyLTUuMzczLTEyLTEyLTEyem0tMiA4YzAgLjU1Ny0uNDQ3IDEuMDA4LTEgMS4wMDhzLTEtLjQ1LTEtMS4wMDhjMC0uNTU3LjQ0Ny0xLjAwOCAxLTEuMDA4czEgLjQ1MiAxIDEuMDA4em0wIDJoLTJ2Nmgydi02em0zIDBoLTJ2Nmgydi0yLjg2MWMwLTEuNzIyIDIuMDAyLTEuODgxIDIuMDAyIDB2Mi44NjFoMS45OTh2LTMuMzU5YzAtMy4yODQtMy4xMjgtMy4xNjQtNC0xLjU0OHYtMS4wOTN6Ii8+PC9zdmc+"),
+    ("https://github.com/VicenteFecedMas", "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMmM1LjUxNCAwIDEwIDQuNDg2IDEwIDEwcy00LjQ4NiAxMC0xMCAxMC0xMC00LjQ4Ni0xMC0xMCA0LjQ4Ni0xMCAxMC0xMHptMC0yYy02LjYyNyAwLTEyIDUuMzczLTEyIDEyczUuMzczIDEyIDEyIDEyIDEyLTUuMzczIDEyLTEyLTUuMzczLTEyLTEyLTEyem0wIDZjLTMuMzEzIDAtNiAyLjY4Ni02IDYgMCAyLjY1MSAxLjcxOSA0LjkgNC4xMDQgNS42OTMuMy4wNTYuMzk2LS4xMy4zOTYtLjI4OXYtMS4xMTdjLTEuNjY5LjM2My0yLjAxNy0uNzA3LTIuMDE3LS43MDctLjI3Mi0uNjkzLS42NjYtLjg3OC0uNjY2LS44NzgtLjU0NC0uMzczLjA0MS0uMzY1LjA0MS0uMzY1LjYwMy4wNDIuOTIuNjE5LjkyLjYxOS41MzUuOTE3IDEuNDAzLjY1MiAxLjc0Ni40OTkuMDU0LS4zODguMjA5LS42NTIuMzgxLS44MDItMS4zMzMtLjE1Mi0yLjczMy0uNjY3LTIuNzMzLTIuOTY1IDAtLjY1NS4yMzQtMS4xOS42MTgtMS42MS0uMDYyLS4xNTMtLjI2OC0uNzY0LjA1OC0xLjU5IDAgMCAuNTA0LS4xNjEgMS42NS42MTUuNDc5LS4xMzMuOTkyLS4xOTkgMS41MDItLjIwMi41MS4wMDIgMS4wMjMuMDY5IDEuNTAzLjIwMiAxLjE0Ni0uNzc2IDEuNjQ4LS42MTUgMS42NDgtLjYxNS4zMjcuODI2LjEyMSAxLjQzNy4wNiAxLjU4OC4zODUuNDIuNjE3Ljk1NS42MTcgMS42MSAwIDIuMzA1LTEuNDA0IDIuODEyLTIuNzQgMi45Ni4yMTYuMTg2LjQxMi41NTEuNDEyIDEuMTExdjEuNjQ2YzAgLjE2LjA5Ni4zNDcuNC4yODggMi4zODMtLjc5MyA0LjEtMy4wNDEgNC4xLTUuNjkxIDAtMy4zMTQtMi42ODctNi02LTZ6Ii8+PC9zdmc+"),
+]
 PROJECTS = {
-    "🏆 Sales Dashboard - Comparing sales across three stores": "https://youtu.be/Sb0A9i6d320",
-    "🏆 Income and Expense Tracker - Web app with NoSQL database": "https://youtu.be/3egaMfE9388",
-    "🏆 Desktop Application - Excel2CSV converter with user settings & menubar": "https://youtu.be/LzCfNanQ_9c",
-    "🏆 MyToolBelt - Custom MS Excel add-in to combine Python & Excel": "https://pythonandvba.com/mytoolbelt/",
+
+}
+
+JOBS = {
+    "job_1": {
+        "title": "Artificial Intelligence engineer",
+        "start_date": "03/2023",
+        "end_date": "Present",
+        "description": """
+- Description 1
+""",
+    },
+
 }
 
 
-st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
+def add_job(job):
+
+    st.write('\n')
+    st.write(f"**{job['title']}**")
+    st.write(f"{job['start_date']} - {job['end_date']}")
+    st.write(job['description'])
+
+st.set_page_config(page_title=PAGE_TITLE)
 
 
 # --- LOAD CSS, PDF & PROFIL PIC ---
 with open(css_file) as f:
     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
+
 with open(resume_file, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
-#profile_pic = Image.open(profile_pic)
 
 
 # --- HERO SECTION ---
-col1, col2 = st.columns(2, gap="small")
-with col1:
-    st.write("Ejemplo")
-    #st.image(profile_pic, width=230)
-
-with col2:
-    st.title(NAME)
-    st.write(DESCRIPTION)
-    st.download_button(
-        label=" 📄 Download Resume",
-        data=PDFbyte,
-        file_name=resume_file.name,
-        mime="application/octet-stream",
-    )
-    st.write("📫", EMAIL)
-
-
-# --- SOCIAL LINKS ---
-st.write('\n')
-cols = st.columns(len(SOCIAL_MEDIA))
-for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
-    cols[index].write(f"[{platform}]({link})")
-
-
-# --- EXPERIENCE & QUALIFICATIONS ---
-st.write('\n')
-st.subheader("Experience & Qulifications")
-st.write(
-    """
-- ✔️ 7 Years expereince extracting actionable insights from data
-- ✔️ Strong hands on experience and knowledge in Python and Excel
-- ✔️ Good understanding of statistical principles and their respective applications
-- ✔️ Excellent team-player and displaying strong sense of initiative on tasks
-"""
+st.title(NAME)
+st.write(DESCRIPTION)
+st.download_button(
+    label=" 📄 Download Resume",
+    data=PDFbyte,
+    file_name=resume_file.name,
+    mime="application/octet-stream",
 )
-
-
-# --- SKILLS ---
-st.write('\n')
-st.subheader("Hard Skills")
-st.write(
-    """
-- 👩‍💻 Programming: Python (Scikit-learn, Pandas), SQL, VBA
-- 📊 Data Visulization: PowerBi, MS Excel, Plotly
-- 📚 Modeling: Logistic regression, linear regression, decition trees
-- 🗄️ Databases: Postgres, MongoDB, MySQL
-"""
-)
-
+st.write(f"[![Title]({SOCIALS[0][0]})](www.google.com)")
+for i, col in enumerate(st.columns(len(SOCIALS))):
+    with col:
+        st.write(f"[![]({SOCIALS[i][1]})]({SOCIALS[i][0]})")
 
 # --- WORK HISTORY ---
-st.write('\n')
-st.subheader("Work History")
-st.write("---")
+for key in JOBS.keys():
+    add_job(JOBS[key])
 
-# --- JOB 1
-st.write("🚧", "**Senior Data Analyst | Ross Industries**")
-st.write("02/2020 - Present")
-st.write(
-    """
-- ► Used PowerBI and SQL to redeﬁne and track KPIs surrounding marketing initiatives, and supplied recommendations to boost landing page conversion rate by 38%
-- ► Led a team of 4 analysts to brainstorm potential marketing and sales improvements, and implemented A/B tests to generate 15% more client leads
-- ► Redesigned data model through iterations that improved predictions by 12%
-"""
-)
+# --- SOCIAL LINKS ---
 
-# --- JOB 2
-st.write('\n')
-st.write("🚧", "**Data Analyst | Liberty Mutual Insurance**")
-st.write("01/2018 - 02/2022")
-st.write(
-    """
-- ► Built data models and maps to generate meaningful insights from customer data, boosting successful sales eﬀorts by 12%
-- ► Modeled targets likely to renew, and presented analysis to leadership, which led to a YoY revenue increase of $300K
-- ► Compiled, studied, and inferred large amounts of data, modeling information to drive auto policy pricing
-"""
-)
+# --- EXPERIENCE & QUALIFICATIONS ---
 
-# --- JOB 3
-st.write('\n')
-st.write("🚧", "**Data Analyst | Chegg**")
-st.write("04/2015 - 01/2018")
-st.write(
-    """
-- ► Devised KPIs using SQL across company website in collaboration with cross-functional teams to achieve a 120% jump in organic traﬃc
-- ► Analyzed, documented, and reported user survey results to improve customer communication processes by 18%
-- ► Collaborated with analyst team to oversee end-to-end process surrounding customers' return data
-"""
-)
-
+# --- SKILLS ---
 
 # --- Projects & Accomplishments ---
 st.write('\n')
